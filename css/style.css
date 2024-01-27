@@ -43,3 +43,26 @@ body{
 .porfolio-section{
     padding: 80px 0px;
 }
+.portfolio-box{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.box-red{
+    background-color: rgb(254, 106, 106);
+}
+.box-tosca{
+    background-color: rgb(2, 159, 170);
+}
+.box-black{
+    background-color: rgb(41, 41, 41);
+}
+.box-blue{
+    background-color: rgb(34, 213, 254);
+}
+.box-dark-blue{
+    background-color: rgb(3, 71, 123);
+}
+.box-brown{
+    background-color: rgb(177, 142, 87);
+}
