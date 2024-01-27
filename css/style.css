@@ -40,12 +40,50 @@ body{
 .hero-section i{
     font-size: 48px;
 }
-.porfolio-section{
+
+.portfolio-section{
     padding: 80px 0px;
 }
+
 .portfolio-box{
-    height: 300px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+    img{
+        border-radius: 10px;
+    }
+
+    .overlay{
+        display: none;
+        background-color: #1abc9c;
+        position: absolute;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        opacity: 1;
+        
+        .bi{
+            font-size: 48px;
+            color: #fff;
+        }
+    }
+}
+
+.portfolio-box:hover{
+    .overlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.8;
+    }
+}
+
+.box-background{
+    height: 285px;
     border-radius: 10px;
+    background-position: center center !important;
+    background-size: cover !important;
 }
 
 .box-red{
